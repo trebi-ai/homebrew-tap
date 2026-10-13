@@ -1,26 +1,26 @@
 class Trebi < Formula
   desc "LLM task runner"
   homepage "https://github.com/trebi-ai/trebi"
-  version "0.2.114"
+  version "0.2.115"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/trebi-ai/trebi/releases/download/v0.2.114/trebi_0.2.114_darwin_arm64.tar.gz"
-      sha256 "953f8856f529f840d51a06c19cfee7c9c8a30190d5acb6e0dc239d28427f9d7c"
+      url "https://github.com/trebi-ai/trebi/releases/download/v0.2.115/trebi_0.2.115_darwin_arm64.tar.gz"
+      sha256 "ecb4f22fadad8db2dce14dbd1214b71cd4650e998b4dffc4e6909f11c98f9511"
     else
-      url "https://github.com/trebi-ai/trebi/releases/download/v0.2.114/trebi_0.2.114_darwin_amd64.tar.gz"
-      sha256 "35d59f9702574fc009c31b0d4870dd5bd3636e2b5288612a7b0e36327891aa3c"
+      url "https://github.com/trebi-ai/trebi/releases/download/v0.2.115/trebi_0.2.115_darwin_amd64.tar.gz"
+      sha256 "8662e3b936e7585dd83cf32558666bcbb6fde3beb95f389639899381a897c330"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/trebi-ai/trebi/releases/download/v0.2.114/trebi_0.2.114_linux_arm64.tar.gz"
-      sha256 "ce01724b1a06fe78215893cf97b88c023ea374709cbeea306dabd48239a8a2b4"
+      url "https://github.com/trebi-ai/trebi/releases/download/v0.2.115/trebi_0.2.115_linux_arm64.tar.gz"
+      sha256 "f751831a3fef4f980dd92a9b50267c9743b2c474154cf7dd0612df1504e62801"
     else
-      url "https://github.com/trebi-ai/trebi/releases/download/v0.2.114/trebi_0.2.114_linux_amd64.tar.gz"
-      sha256 "ecfdb02aebed597c12e3ee1a6f28b1886ebf45fe28eb495e12e418fa6a826cb8"
+      url "https://github.com/trebi-ai/trebi/releases/download/v0.2.115/trebi_0.2.115_linux_amd64.tar.gz"
+      sha256 "166aa4651a8cdb55348a2a17c33bd3b65f17e30cf12e0bd10b22224dec98e0f5"
     end
   end
 
