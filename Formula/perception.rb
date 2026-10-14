@@ -18,10 +18,10 @@ end
 class Perception < Formula
   desc "Work context for agents: collect, store, index, route, serve"
   homepage "https://github.com/trebi-ai/perception"
-  version "0.2.12"
-  url "https://api.github.com/repos/trebi-ai/perception/releases/assets/640044553",
+  version "0.2.13"
+  url "https://api.github.com/repos/trebi-ai/perception/releases/assets/640336365",
       using: PerceptionAssetDownloadStrategy
-  sha256 "4f5a89b557b61090e859c6d0293bee333afebfd24a2a6a80e8c508ba831ddc0c"
+  sha256 "b8b4f32fd6bdcbaab17f3bdd775b5f5c4a63844174a09f2e81af9b57bb3af1f6"
 
   depends_on arch: :arm64
   depends_on :macos
