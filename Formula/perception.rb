@@ -18,18 +18,17 @@ end
 class Perception < Formula
   desc "Work context for agents: collect, store, index, route, serve"
   homepage "https://github.com/trebi-ai/perception"
-  version "0.2.8"
-  url "https://api.github.com/repos/trebi-ai/perception/releases/assets/638502879",
+  version "0.2.9"
+  url "https://api.github.com/repos/trebi-ai/perception/releases/assets/639008022",
       using: PerceptionAssetDownloadStrategy
-  sha256 "645b31e5dace42ceeff455a6073fde70925fc90c119bde7ef83ac2288fa9be44"
+  sha256 "bad554dcbe670405e767a2d8e6d2cc1599fa7e85d3f98c46357a42150475b045"
 
   depends_on arch: :arm64
   depends_on :macos
   depends_on "ffmpeg"
 
   def install
-    bin.install "perception"
-    bin.install "perception-helper" if File.exist?("perception-helper")
+    bin.install "perception", "PerceptionHelper.app.zip"
   end
 
   test do
