@@ -16,12 +16,12 @@ class PerceptionAssetDownloadStrategy < CurlDownloadStrategy
 end
 
 class Perception < Formula
-  desc "Work context for agents: collect, store, index, route, serve"
+  desc "Work space for agents: collect, store, index, route, serve"
   homepage "https://github.com/trebi-ai/perception"
-  version "0.2.20"
-  url "https://api.github.com/repos/trebi-ai/perception/releases/assets/641425275",
+  version "0.3.0"
+  url "https://api.github.com/repos/trebi-ai/perception/releases/assets/642334582",
       using: PerceptionAssetDownloadStrategy
-  sha256 "e3764a10cd48e2b298cae73e6dcdb3f465f8e52bd12ad6833da04f73b34d03cc"
+  sha256 "a571a2bcca7dd3802044d0fb56bc1979b22562e9709f59fb033e757942e9b769"
 
   depends_on arch: :arm64
   depends_on :macos
