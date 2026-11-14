@@ -7,10 +7,10 @@ class Trebi < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/trebi-ai/trebi/releases/download/v0.2.210/trebi_0.2.210_darwin_arm64.tar.gz"
-      sha256 "e364a18f5674c266467e3c93dfe28a233f65499fc468c9749b06b1eaed99fe51"
+      sha256 "b0d0c41a49ca9fcab41d3112b54fecd7a57fa1d2fa5d8f15c1d17f2b5e98eee7"
     else
       url "https://github.com/trebi-ai/trebi/releases/download/v0.2.210/trebi_0.2.210_darwin_amd64.tar.gz"
-      sha256 "c262c7d88156ff4fbe8f8900844e0ba1c6a0d4d31b90d3f268722b8115c14977"
+      sha256 "423591c69619675a015239199721cbc9d441a2626f9c7cbaf7db84fac34bf5ab"
     end
   end
 
